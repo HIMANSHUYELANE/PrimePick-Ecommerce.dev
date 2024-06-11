@@ -3,13 +3,13 @@ import { products } from "../Data";
 import { Category } from "../Data";
 import ProductCard from "./ProductCard";
 import Ctegories from "./Ctegories";
-export default function ProductContainer({search ,i}) {
+export default function ProductContainer({search }) {
   // console.log(products)
   const [prods, setProds] = useState('');
   return (
     <>
       
-      <div key={i} className="flex flex-wrap justify-evenly gap-8 mx-5">
+      <div  className="flex flex-wrap justify-evenly gap-8 mx-5">
         {products.filter((product)=>
                product.name.toLowerCase().includes(search)
         ).map((product) => {

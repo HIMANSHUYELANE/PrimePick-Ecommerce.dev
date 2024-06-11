@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function ProductCard({ name, dist, price, category, cover }) {
   return (
     <>
-      <Link to={`/Mobile`} >
+      
         <div className=" w-[200px]">
         <FaCartArrowDown className="float-end text-lg" />
           <div className="h-48  overflow-hidden p-2">
@@ -18,7 +18,6 @@ export default function ProductCard({ name, dist, price, category, cover }) {
             <p className="text-green-600">{dist} off</p>
           </div>
         </div>
-      </Link>
       
     </>
   );

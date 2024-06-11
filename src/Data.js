@@ -1,7 +1,7 @@
 export const Category = [
   {
     id: 1,
-    title: "MOBILES",
+    title: "MOBILE",
     cover:
       "https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100",
   },
@@ -37,7 +37,7 @@ export const products = [
     name: "Infinix GT20 Pro",
     price: 24999,
     discount: "18%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/p/x/-original-imahf38d4cwmuqep.jpeg?q=70",
   },
@@ -55,7 +55,7 @@ export const products = [
     name: "POCO m5 5G",
     price: 9999,
     discount: "25%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70",
   },
@@ -64,7 +64,7 @@ export const products = [
     name: "SAMSUNG F34 5G",
     price: 12999,
     discount: "18%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/r/8/-original-imagtywatxffk3yh.jpeg?q=70",
   },
@@ -82,7 +82,7 @@ export const products = [
     name: "Vivo T2x 5G",
     price: 13999,
     discount: "16%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70",
   },
@@ -91,7 +91,7 @@ export const products = [
     name: "Apple iphone 14 ",
     price: 57999,
     discount: "28%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/b/0/-original-imaghx9qnhzxegu2.jpeg?q=70",
   },
@@ -100,7 +100,7 @@ export const products = [
     name: "MOTO edge 50",
     price: 20999,
     discount: "28%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70",
   },
@@ -127,7 +127,7 @@ export const products = [
     name: "Samsung F55 5G",
     price: 22999,
     discount: "22%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/v/g/-original-imahfmayxrnfsury.jpeg?q=70",
   },
@@ -136,7 +136,7 @@ export const products = [
     name: "Google Pixel 8a",
     price: 57599,
     discount: "35%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/h/n/pixel-8a-ga05570-in-google-original-imahyn3ncc6gcfnc.jpeg?q=70",
   },
@@ -145,7 +145,7 @@ export const products = [
     name: "Oppp Reno 11",
     price: 26999,
     discount: "31%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/u/d/reno-11-5g-cph2599-oppo-original-imagwxdsh2zjfpdt.jpeg?q=70",
   },
@@ -163,7 +163,7 @@ export const products = [
     name: "realme 12X 5G",
     price: 12999,
     discount: "12%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/i/w/-original-imagzk4mfg6zf2fv.jpeg?q=70",
   },
@@ -199,7 +199,7 @@ export const products = [
     name: "realme p1 5G",
     price: 15999,
     discount: "18%",
-    category: "Mobile",
+    category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/b/n/-original-imahyuhfzvybhaat.jpeg?q=70",
   },

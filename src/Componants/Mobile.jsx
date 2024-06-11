@@ -1,26 +1,22 @@
 import React from 'react'
-import { products } from '../Data'
-import ProductCard from './ProductCard'
-import { useParams } from 'react-router-dom'
+import { FaCartArrowDown } from 'react-icons/fa'
 export default function Mobile() {
-  const params =useParams().Mobile
   
   return (
-    <div>
-      {
-        products.filter((product)=>{
-            return(
-                <ProductCard
-                key={product.id}
-                name={product.name}
-                price={product.price}
-                category={product.category}
-                dist={product.discount}
-                cover={product.cover}
-                 />
-            )
-        })
-      }
-    </div>
+        <>
+        <div>HImnahus</div>
+         {/* <div className=" w-[200px]">
+              <FaCartArrowDown className="float-end text-lg" />
+                <div className="h-48  overflow-hidden p-2">
+                  <img className="h-44 mx-auto" src={cover} alt="" />
+                </div>
+                <div className="px-3">
+                  <p className="font-bold">{name}</p>
+                  <p className="font-semibold">₹ {price}.00</p>
+                  <p className="">{category}</p>
+                  <p className="text-green-600">{dist} off</p>
+                </div>
+              </div> */}
+        </>
   )
 }
