@@ -1,11 +1,11 @@
 import React from 'react'
 import { FaCartArrowDown } from 'react-icons/fa'
-export default function Mobile() {
+export default function CategoryProduct({ name, dist, price, category, cover }) {
   
   return (
-        <>
-        <div>HImnahus</div>
-         {/* <div className=" w-[200px]">
+    <>
+
+         <div className=" w-[200px]">
               <FaCartArrowDown className="float-end text-lg" />
                 <div className="h-48  overflow-hidden p-2">
                   <img className="h-44 mx-auto" src={cover} alt="" />
@@ -16,7 +16,7 @@ export default function Mobile() {
                   <p className="">{category}</p>
                   <p className="text-green-600">{dist} off</p>
                 </div>
-              </div> */}
+              </div>
         </>
   )
 }

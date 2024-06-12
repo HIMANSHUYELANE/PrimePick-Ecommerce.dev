@@ -1,23 +1,26 @@
 import React from "react";
 import { products } from "../Data";
 import { useParams } from "react-router-dom";
-import Mobile from "./Mobile";
+import Mobile from "./CategoryProduct";
 import ProductCard from "./ProductCard";
+import CategoryProduct from "./CategoryProduct";
 
-export default function filter() {
+export default function filter({price}) {
   let params = useParams().category;
 //   console.log("HImanshu");
 //   console.log(params);
   return (
-    <div className="flex flex-wrap justify-evenly gap-12">
+    <div className="flex flex-wrap justify-evenly gap-12 my-10">
       {
         products.filter((product)=>
             product.category.toLowerCase().includes(params)
-        ).map((product)=>{
+      ).filter((product)=>
+            (price === '' || product.price <= price)
+       ).map((product)=>{
             return(
                 <>
               <div className="">
-                <ProductCard
+                <CategoryProduct
                   key={product.id}
                   name={product.name}
                   price={product.price}
