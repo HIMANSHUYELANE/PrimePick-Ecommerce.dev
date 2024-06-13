@@ -14,11 +14,14 @@ export default function ProductContainer({search }) {
                product.name.toLowerCase().includes(search)
         ).map((product) => {
           // console.log(product)
+          if(product.length === 0){
+            console.log("not found")
+          }
           return (
             <>
               <div>
                 <ProductCard
-                  key={product.id}
+                  id={product.id}
                   name={product.name}
                   price={product.price}
                   category={product.category}

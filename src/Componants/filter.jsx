@@ -5,7 +5,7 @@ import Mobile from "./CategoryProduct";
 import ProductCard from "./ProductCard";
 import CategoryProduct from "./CategoryProduct";
 
-export default function filter({price}) {
+export default function filter({minprice,maxprice}) {
   let params = useParams().category;
 //   console.log("HImanshu");
 //   console.log(params);
@@ -15,7 +15,7 @@ export default function filter({price}) {
         products.filter((product)=>
             product.category.toLowerCase().includes(params)
       ).filter((product)=>
-            (price === '' || product.price <= price)
+            (minprice === '' || product.price <= maxprice && product.price >= minprice )
        ).map((product)=>{
             return(
                 <>

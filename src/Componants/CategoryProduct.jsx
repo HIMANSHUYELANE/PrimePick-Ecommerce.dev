@@ -1,10 +1,12 @@
 import React from 'react'
 import { FaCartArrowDown } from 'react-icons/fa'
+
+
 export default function CategoryProduct({ name, dist, price, category, cover }) {
+
   
   return (
     <>
-
          <div className=" w-[200px]">
               <FaCartArrowDown className="float-end text-lg" />
                 <div className="h-48  overflow-hidden p-2">

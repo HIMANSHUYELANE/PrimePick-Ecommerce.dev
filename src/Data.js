@@ -15,7 +15,7 @@ export const Category = [
     id: 3,
     title: "FATION",
     cover:
-      "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/43a29fc06d62a752.jpg?q=50",
+      "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/120fe56747723091.png?q=100",
   },
   {
     id: 4,
@@ -60,6 +60,15 @@ export const products = [
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70",
   },
   {
+    id: 30,
+    name: "Asus Tuf F15",
+    price: 55559,
+    discount: "26%",
+    category: "electronics",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/y/z/-original-imagtucnqsqpbvk6.jpeg?q=70",
+  },
+  {
     id: 4,
     name: "SAMSUNG F34 5G",
     price: 12999,
@@ -76,6 +85,15 @@ export const products = [
     category: "Grocery",
     cover:
       "https://rukminim2.flixcart.com/image/280/280/l2xmqvk0/ghee/9/g/x/-original-image5uyyzzvgzzh.jpeg?q=70",
+  },
+  {
+    id: 31,
+    name: "Acer Nitro 5",
+    price: 45959,
+    discount: "29%",
+    category: "electronics",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/l1mh7rk0/computer/u/r/m/an515-58-gaming-laptop-acer-original-imagd5zzqqpngwmz.jpeg?q=70",
   },
   {
     id: 5,
@@ -103,6 +121,15 @@ export const products = [
     category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/k/l/edge-50-fusion-pb300001in-motorola-original-imahywzpfd2jh9ep.jpeg?q=70",
+  },
+  {
+    id: 32,
+    name: "Nvidia RTX 3060",
+    price: 27999,
+    discount: "23%",
+    category: "electronics",
+    cover:
+      "https://rukminim2.flixcart.com/image/612/612/l3bx5e80/graphics-card/h/i/w/geforce-rtx-3060-ventus-2x-12g-oc-12gb-gddr6-192-bit-msi-original-imageh5fuag43pr6.jpeg?q=70",
   },
   {
     id: 14,
@@ -143,12 +170,20 @@ export const products = [
   {
     id: 11,
     name: "Oppp Reno 11",
-    price: 26999,
+    price: 36999,
     discount: "31%",
     category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/u/d/reno-11-5g-cph2599-oppo-original-imagwxdsh2zjfpdt.jpeg?q=70",
   },
+  {
+    id: 37,
+    name: "Dell Optiplex Core i5",
+    price: 16999,
+    discount: "31%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mini-pc/1/c/m/dell-optiplex-business-tiny-micro-form-factor-core-i5-6th-gen-original-imagy4tfsy4yvcr6.jpeg?q=70"  },
   {
     id: 12,
     name: "oraganic Moti Matki",
@@ -231,6 +266,14 @@ export const products = [
       "https://rukminim2.flixcart.com/image/280/280/km0x5zk0/spice-masala/g/1/s/hingraj-plastic-bottle-everest-powder-original-imagfydnqzppyhze.jpeg?q=70",
   },
   {
+    id: 37,
+    name: "ROG Intel Core i7",
+    price: 35990,
+    discount: "22%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/l/w/q/premium-gaming-editing-desktops-core-i5-3rd-generation-desktop-original-imagvugsy7edyaxv.jpeg?q=70"  },
+  {
     id: 20,
     name: "catch Jira Powder",
     price: 75,
@@ -240,6 +283,14 @@ export const products = [
       "https://rukminim2.flixcart.com/image/280/280/xif0q/spice-masala/q/h/2/-original-imagt2nzmyyzrzh5.jpeg?q=70",
   },
   {
+    id: 33,
+    name: "Samsung 27inch Monitor ",
+    price: 16550,
+    discount: "29%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/m/4/u/-original-imahfes3epqp8ahr.jpeg?q=70"  },
+  {
     id: 21,
     name: "Fortune Basmati Rice",
     price: 112,
@@ -248,6 +299,14 @@ export const products = [
     cover:
       "https://rukminim2.flixcart.com/image/280/280/kqidx8w0/rice/r/p/x/white-everyday-na-basmati-rice-pouch-fortune-original-imag4gb4ynggnzgt.jpeg?q=70",
   },
+  {
+    id: 35,
+    name: "Go Pro 15",
+    price: 38990,
+    discount: "33%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/sports-action-camera/y/r/u/-original-imahyxtgj2g8uqvn.jpeg?q=70"  },
   {
     id: 22,
     name: "Men Regular Cheked Shirt",
@@ -275,6 +334,22 @@ export const products = [
     cover:
       "https://rukminim2.flixcart.com/image/612/612/kxtaxzk0/shopsy-sari/d/s/j/free-lnb-fabian-fashion-unstitched-original-imaga6mvtkskmess.jpeg?q=70",
   },
+  {
+    id: 36,
+    name: "INTWINO Intel Core i7",
+    price: 23650,
+    discount: "23%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/n/6/b/entaic-i7-2600-8gb-1tb-256-22led-entwino-original-imagjfkzny4uquse.jpeg?q=70"  },
+  {
+    id: 34,
+    name: "Boat  Aavente Bar With Base Audio system ",
+    price: 473,
+    discount: "23%",
+    category: "electronics",
+    cover:
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/j/q/v/-original-imagtnpuctjgnzrx.jpeg?q=70"  },
   {
     id: 27,
     name: "Men Solid Blue Track Pants",
