@@ -4,7 +4,8 @@ import { MdAccountCircle } from "react-icons/md";
 
 export default function Header() {
   return (
-    <div className="flex justify-between align-middle my-2 ">
+    <div className="flex justify-between align-middle my-2
+     ">
         <div>
           <p className="font-bold text-4xl text-fuchsia-700 mx-3">PrimePicks</p>
         </div>

@@ -4,11 +4,12 @@ import PriceFilter from './PriceFilter'
 export default function FilterContainer() {
   const [maxprice , setMaxPrice]=useState('')  
   const [minprice , setMinPrice]=useState('')
+  const [allprice ,setAllPrice]=useState('')
   return (
     <>
     <div className="flex mt-10">
-        <PriceFilter setMaxPrice={setMaxPrice} setMinPrice={setMinPrice} />
-        <Filter maxprice={maxprice} minprice={minprice} />
+        <PriceFilter setAllPrice={setAllPrice} setMaxPrice={setMaxPrice} setMinPrice={setMinPrice} />
+        <Filter allprice={allprice} maxprice={maxprice} minprice={minprice} />
     </div>
     </>
   )

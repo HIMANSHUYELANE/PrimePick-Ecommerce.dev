@@ -1,14 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-export default function PriceFilter({ setMinPrice, setMaxPrice }) {
+export default function PriceFilter({ setMinPrice, setMaxPrice ,setAllPrice }) {
   const params = useParams().category;
   console.log(params);
-  const shouldHideDiv = params === "mobile" || "electronics" || "appliances";
+  const shouldHideDiv = params === "mobile" || params === "electronics" || params === "appliances";
   return (
     <div className="bg-slate-200 px-4 py-10 h-screen space-y-5">
       <h1 className="text-xl font-bold">Price Filter</h1>
-
+      <button value={0} onClick={(e)=>{window.location.reload(e)}} className="px-8 rounded-md border-black border-2">ALL</button>
       <div>
         {shouldHideDiv ? (
           <div className="flex flex-col space-y-5">

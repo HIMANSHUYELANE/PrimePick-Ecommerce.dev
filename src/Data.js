@@ -51,6 +51,14 @@ export const products = [
       "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/e/b/w/free-sarees-new2022-design-simple-sarees-2022-kanjivaram-saree-original-imagq6cwhu37bnaz.jpeg?q=70",
   },
   {
+    id: 40,
+    name: "Wirlpool 8.5 kg turbo Washing Machine",
+    price: 14990,
+    discount: "29%",
+    category: "appliances",
+    cover:
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/v/v/a/-original-imahyvn3rfevnxer.jpeg?q=70"  },
+  {
     id: 3,
     name: "POCO m5 5G",
     price: 9999,
@@ -68,6 +76,17 @@ export const products = [
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/y/z/-original-imagtucnqsqpbvk6.jpeg?q=70",
   },
+
+  {
+    id: 41,
+    name: "LG Android (55inch) 4k LED TV",
+    price: 43559,
+    discount: "26%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/television/a/8/a/-original-imagzrrjmbpznrrx.jpeg?q=70",
+  },
+
   {
     id: 4,
     name: "SAMSUNG F34 5G",
@@ -141,6 +160,15 @@ export const products = [
       "https://rukminim2.flixcart.com/image/280/280/kkzrpu80/soya-chunk/i/k/4/fortune-soya-chunks-pouch-pouch-soya-chunks-fortune-original-imagy7kwqydjcjv6.jpeg?q=70",
   },
   {
+    id: 42,
+    name: "MI X 55inch Android 4k TV",
+    price: 45990,
+    discount: "38%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/television/r/q/g/-original-imagu436fv4tgkfs.jpeg?q=70",
+  },
+  {
     id: 28,
     name: "Men printed 3/4 Pants",
     price: 292,
@@ -157,6 +185,15 @@ export const products = [
     category: "mobile",
     cover:
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/v/g/-original-imahfmayxrnfsury.jpeg?q=70",
+  },
+  {
+    id: 43,
+    name: "SAMSUNG 301 Double Door Refrigerator",
+    price: 33999,
+    discount: "22%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/b/r/x/-original-imagyfzdhkcqtwtw.jpeg?q=70",
   },
   {
     id: 10,
@@ -177,13 +214,14 @@ export const products = [
       "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/u/d/reno-11-5g-cph2599-oppo-original-imagwxdsh2zjfpdt.jpeg?q=70",
   },
   {
-    id: 37,
+    id: 38,
     name: "Dell Optiplex Core i5",
     price: 16999,
     discount: "31%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/312/312/xif0q/mini-pc/1/c/m/dell-optiplex-business-tiny-micro-form-factor-core-i5-6th-gen-original-imagy4tfsy4yvcr6.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/mini-pc/1/c/m/dell-optiplex-business-tiny-micro-form-factor-core-i5-6th-gen-original-imagy4tfsy4yvcr6.jpeg?q=70",
+  },
   {
     id: 12,
     name: "oraganic Moti Matki",
@@ -210,6 +248,15 @@ export const products = [
     category: "Grocery",
     cover:
       "https://rukminim2.flixcart.com/image/280/280/kixgtjk0/pulses/d/x/z/500-arhar-tur-dal-arhar-dal-organic-tattva-original-imafym8wamzrznvw.jpeg?q=70",
+  },
+  {
+    id: 44,
+    name: "SAMSUNG 653L Side BY Side refrigerator",
+    price: 57000,
+    discount: "12%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/e/u/1/-original-imagy4u4p8csevzd.jpeg?q=70",
   },
   {
     id: 29,
@@ -248,6 +295,15 @@ export const products = [
       "https://rukminim2.flixcart.com/image/280/280/kflftzk0hlty2aw-0/edible-oil/j/a/d/sunlite-refined-pouch-sunflower-oil-fortune-original-imafw33uhwkebr5j.jpeg?q=70",
   },
   {
+    id: 45,
+    name: "Samsung 28L Microwave Ovon",
+    price: 12590,
+    discount: "15%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/microwave-new/a/u/e/-original-imagxhns3rtyyze2.jpeg?q=70",
+  },
+  {
     id: 18,
     name: "Zoff Chat Masala",
     price: 48,
@@ -272,7 +328,8 @@ export const products = [
     discount: "22%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/l/w/q/premium-gaming-editing-desktops-core-i5-3rd-generation-desktop-original-imagvugsy7edyaxv.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/l/w/q/premium-gaming-editing-desktops-core-i5-3rd-generation-desktop-original-imagvugsy7edyaxv.jpeg?q=70",
+  },
   {
     id: 20,
     name: "catch Jira Powder",
@@ -289,7 +346,8 @@ export const products = [
     discount: "29%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/m/4/u/-original-imahfes3epqp8ahr.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/m/4/u/-original-imahfes3epqp8ahr.jpeg?q=70",
+  },
   {
     id: 21,
     name: "Fortune Basmati Rice",
@@ -306,7 +364,8 @@ export const products = [
     discount: "33%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/312/312/xif0q/sports-action-camera/y/r/u/-original-imahyxtgj2g8uqvn.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/sports-action-camera/y/r/u/-original-imahyxtgj2g8uqvn.jpeg?q=70",
+  },
   {
     id: 22,
     name: "Men Regular Cheked Shirt",
@@ -341,7 +400,18 @@ export const products = [
     discount: "23%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/n/6/b/entaic-i7-2600-8gb-1tb-256-22led-entwino-original-imagjfkzny4uquse.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/allinone-desktop/n/6/b/entaic-i7-2600-8gb-1tb-256-22led-entwino-original-imagjfkzny4uquse.jpeg?q=70",
+  },
+  {
+    id: 39,
+    name: "LG 8 kg Washing Machine",
+    price: 16950,
+    discount: "33%",
+    category: "appliances",
+    cover:
+      "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/2/b/h/-original-imagx7qh8qzppe3s.jpeg?q=70",
+  },
+
   {
     id: 34,
     name: "Boat  Aavente Bar With Base Audio system ",
@@ -349,7 +419,8 @@ export const products = [
     discount: "23%",
     category: "electronics",
     cover:
-    "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/j/q/v/-original-imagtnpuctjgnzrx.jpeg?q=70"  },
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/j/q/v/-original-imagtnpuctjgnzrx.jpeg?q=70",
+  },
   {
     id: 27,
     name: "Men Solid Blue Track Pants",

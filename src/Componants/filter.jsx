@@ -1,13 +1,12 @@
 import React from "react";
 import { products } from "../Data";
 import { useParams } from "react-router-dom";
-import Mobile from "./CategoryProduct";
-import ProductCard from "./ProductCard";
 import CategoryProduct from "./CategoryProduct";
 
-export default function filter({minprice,maxprice}) {
+export default function filter({minprice,maxprice,allprice}) {
   let params = useParams().category;
 //   console.log("HImanshu");
+console.log(allprice)
 //   console.log(params);
   return (
     <div className="flex flex-wrap justify-evenly gap-12 my-10">
@@ -15,7 +14,7 @@ export default function filter({minprice,maxprice}) {
         products.filter((product)=>
             product.category.toLowerCase().includes(params)
       ).filter((product)=>
-            (minprice === '' || product.price <= maxprice && product.price >= minprice )
+            (minprice === '' || product.price <= maxprice && product.price >= minprice  || product.price < allprice )
        ).map((product)=>{
             return(
                 <>
