@@ -16,7 +16,6 @@ export default function CategoryContainer({i}) {
         id={cat.id}
         title={cat.title.toLowerCase()}
         img={cat.cover} />
-        
         )
         })}
   </div>
