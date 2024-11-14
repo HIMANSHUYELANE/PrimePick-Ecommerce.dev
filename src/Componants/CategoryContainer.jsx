@@ -11,8 +11,7 @@ export default function CategoryContainer({i}) {
     {Category.map((cat) => {
       // console.log(cat)
       return (
-        
-        <Ctegories 
+        <Ctegories
         id={cat.id}
         title={cat.title.toLowerCase()}
         img={cat.cover} />

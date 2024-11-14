@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './Componants/Home.jsx';
 import Filter from './Componants/filter.jsx';
+import Cart from './Componants/Cart.jsx'
 import FilterContainer from './Componants/FilterContainer.jsx';
 
 const router = createBrowserRouter([
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
     {
       path: "/:category",
       element: <FilterContainer />
-    }
+    },
   ]
 }
 ]);

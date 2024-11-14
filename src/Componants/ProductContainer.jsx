@@ -3,7 +3,7 @@ import { products } from "../Data";
 import { Category } from "../Data";
 import ProductCard from "./ProductCard";
 import Ctegories from "./Ctegories";
-export default function ProductContainer({search }) {
+export default function ProductContainer({search , handle}) {
   // console.log(products)
   const [prods, setProds] = useState('');
   return (
@@ -18,6 +18,8 @@ export default function ProductContainer({search }) {
             <>
               <div>
                 <ProductCard
+                handle={handle}
+                item={product}
                   id={product.id}
                   name={product.name}
                   price={product.price}

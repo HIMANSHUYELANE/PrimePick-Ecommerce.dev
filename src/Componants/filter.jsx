@@ -2,6 +2,7 @@ import React from "react";
 import { products } from "../Data";
 import { useParams } from "react-router-dom";
 import CategoryProduct from "./CategoryProduct";
+import Header from "./Header";
 
 export default function filter({minprice,maxprice,allprice}) {
   let params = useParams().category;
@@ -9,6 +10,7 @@ export default function filter({minprice,maxprice,allprice}) {
 console.log(allprice)
 //   console.log(params);
   return (
+    <>
     <div className="flex flex-wrap justify-evenly gap-12 my-10">
       {
         products.filter((product)=>
@@ -35,5 +37,6 @@ console.log(allprice)
       }
       {/* <h1>HImanhsu</h1> */}
     </div>
+    </>
   );
 }
